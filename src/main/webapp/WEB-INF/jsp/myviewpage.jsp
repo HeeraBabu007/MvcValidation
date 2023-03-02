@@ -3,7 +3,7 @@
 <head>    
 </head>  
 <body>  
-<form:form action="greeting2" command="user">  
+<form:form action="greeting2" modelAttribute="user">  
 User Name: <form:input path="username"/> <br><br>  
 Password(*): <form:password path="password"/>    
 <form:errors path="password" /><br><br>  
